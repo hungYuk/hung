@@ -175,9 +175,9 @@
 	        // Draw tank normally
 	       
 	            if (id == 1)
-	                g.drawImage(tankRed, x, y - height / 2, width, height, null);
+	                g.drawImage(tankRed, x, y - height / 2+10, width, height, null);
 	            else
-	                g.drawImage(tankBlue, x, y - height / 2, width, height, null);
+	                g.drawImage(tankBlue, x, y - height / 2+10, width, height, null);
 
 	            // Draw blood bar
 	            

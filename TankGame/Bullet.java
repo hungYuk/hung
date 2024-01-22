@@ -37,9 +37,9 @@ public class Bullet extends Rectangle{
 	public void render(Graphics g) {
 		//initial position of the bullet( at the tank)
 		if(id==1) {
-			g.drawImage(bulletRed, x+70, y-5, w, h, null);
+			g.drawImage(bulletRed, x+70, y+5, w, h, null);
 		}else {
-			g.drawImage(bulletBlue, x-25, y-5, w, h, null);
+			g.drawImage(bulletBlue, x-25, y+5, w, h, null);
 		}
 			
 	}
